@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia Nova Geração</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="topo">
+    </div>
+    <div class="meio">
+        <div class="btn-menu ocultar" id="divlink0" onclick="window.location='index.html';">
+            INICIO
+        </div>
+        <div class="btn-menu" id="divlink1" onclick="window.location='#';">
+            AGENDAR
+        </div>
+        <div class="btn-menu" id="divlink2" onclick="myFunction();">
+            HISTÓRIA
+        </div>
+        <div class="btn-menu" id="divlink3" onclick="window.location='#';">
+            CONTATO
+        </div>
+    </div>
+    <div class="chao" id="chao">
+        
+    </div>
+    <div class="historia">
+    Após a mudança repentina para a cidade de Ibiapina </br>
+    pela nescessidade de criar sua familia</br>
+    Sr.Vicente decide empreender abrindo uma Barbearia,</br>
+    onde conquistou muitos clientes,com a demanda aumentando</br>
+    ele começou a  passou a profissão para todos os filhos,</br>
+    onde eles buscavam atender com excelência todos seus clientes,</br>
+    após varias décadas como profissional no ramo da Barbearia,</br>
+    ele deu inicio ao aprendizado de seus netos.</br>
+    Após a morte de uma forma  turbulenta, Seu filho Venilson e seu neto Genilson, </br>
+    fundaram a Nova Geração, Barbearia que continua levando o nome de toda a familia,</br>
+     em cada corte, sendo unico. 
+    </div>
+    <script>
+        function myFunction(){
+            document.getElementById('chao').style = 'display: none;';
+            var element = document.getElementById("divlink0");
+            element.classList.remove("ocultar");
+        }
+    </script>
+</body>
+</html>

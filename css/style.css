@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+.topo{
+    background-color: rgb(0, 0, 0);
+    width: 100vw; 
+    height: 35vh;
+    background-image: url('../img/topo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50vw;
+}
+.meio {
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-menu {
+    font-family: arial;
+    margin: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    width: 10vw;
+    height: 35px;
+}
+
+.btn-menu:hover {
+    background-color: #504e4e;
+}
+
+.chao { 
+    width: 100vw; 
+    height: 55vh;
+    max-height: 100%; 
+    background-image: url('../img/chao.png');
+    background-color: black;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ocultar {
+    display: none;
+}
+
+.telefone {
+    background-color: #ffffff;
+}
+.historia{
+    color: white;
+    text-align:center ;
+}
