@@ -26,32 +26,24 @@
   </div>
 </nav>
 <div class="container text-white">
-    <div class="row">
-        <div class="col mt-5">
-            <h1>Agendar</h1>
-            <form action="enviar.php"method="POST">
-            <div class="mb-3">
-                <label>Nome</label>
-                <input type="text" name="nome" class="form-control">
-            </div>
-            <div class="mb-3">
-                <label>Numero</label>
-                <input type="text" name="numero" class="form-control">
-            </div>
-            <div class="mb-3">
-                <label for="party">Data e Hora de Preferência</label>
-                <input id="party" type="datetime-local" name="agendata" value="2022-06-01T08:30" class="form-control">
-            </div>
-            <div class="mb-3">
-                <button type="submit" class="btn btn-primary">ENVIAR</button>
-            </div>
-            </form>
-        </div>
-    </div>
+<h1>AGENDA</h1>
+<?php
+    $sql = "SELECT * FROM usuario";
+
+    $res = $conn->query($sql);
+
+    $qtd = $res->num_rows;
+
+    if ($qtd > 0) {
+        // code...
+    }
+
+
+
+?>
+
+    
 </div>
-
-
-
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

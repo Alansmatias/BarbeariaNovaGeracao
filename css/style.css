@@ -66,6 +66,8 @@ body{
     color: white;
     text-align:center ;
     font-family: Arial;
+    word-wrap: break-word;
+    background-color: black;
 }
 
 .contato{
