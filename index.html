@@ -15,13 +15,13 @@
         <div class="btn-menu ocultar" id="divlink0" onclick="window.location='index.html';">
             INICIO
         </div>
-        <div class="btn-menu" id="divlink1" onclick="window.location='#';">
+        <div class="btn-menu" id="divlink1" onclick="window.location='agendar.php';">
             AGENDAR
         </div>
         <div class="btn-menu" id="divlink2" onclick="myFunction();">
             HISTÓRIA
         </div>
-        <div class="btn-menu" id="divlink3" onclick="window.location='#';">
+        <div class="btn-menu" id="divlink3" onclick="myFunction2();">
             CONTATO
         </div>
     </div>
@@ -49,6 +49,19 @@
             document.getElementById('chao').style = 'display: none;';
             var element = document.getElementById("divlink0");
             element.classList.remove("ocultar");
+            var element2 = document.getElementById("hist");
+            element2.classList.remove("ocultar");
+            var element4 = document.getElementById("cont");
+            element4.classList.add("ocultar");
+        }
+        function myFunction2(){
+            document.getElementById('chao').style = 'display: none;';//ocultar imagem
+            var element1 = document.getElementById("divlink0");
+            element1.classList.remove("ocultar");
+            var element3 = document.getElementById("cont");
+            element3.classList.remove("ocultar");
+            var element5 = document.getElementById("hist");
+            element5.classList.add("ocultar");
         }
 
     </script>
